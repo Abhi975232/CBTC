@@ -1,2 +1,2 @@
 # CBTC
-this is my first git repositorty
+This is my first git repositorty
