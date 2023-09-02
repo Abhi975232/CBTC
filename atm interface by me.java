@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class atminterface {
+public class atminterface {
     private static final String ACCOUNT_NUMBER = "123456";
     private static final String PIN = "1234";
     private static double balance = 10000.0;
@@ -89,6 +89,6 @@ class atminterface {
 
     public static void setBalance(double balance) {
         Object main;
-        main.balance = balance;
+      double mainbalance = balance;
     }
 }
