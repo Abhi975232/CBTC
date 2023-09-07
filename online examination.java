@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class OnlineExamSystem {
+ public class OnlineExamSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean isLoggedIn = false;
@@ -52,10 +52,7 @@ class OnlineExamSystem {
                 // Implement exam functionalities with MCQs, timer, and scoring
                 if (remainingTime > 0) {
                     System.out.println("Remaining time: " + remainingTime + " seconds");
-                    // Implement MCQs and answer selection
-                    // Update score based on correct answers
-                    // Decrement remainingTime
-                    // Implement auto-submit when remainingTime reaches 0
+                   
                 } else {
                     isExamInProgress = false;
                     System.out.println("Exam finished. Your score: " + score);
